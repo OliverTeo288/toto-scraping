@@ -3,7 +3,8 @@ from selenium.webdriver.support.ui import Select
 import pandas as pd
 import time
 
-driver = webdriver.Chrome('C:/Users/Oliver/Downloads/Toto Project/chromedriver.exe')
+# edit file path before using it
+driver = webdriver.Chrome('C:/Users/xxx/chromedriver.exe')
 driver.get("https://www.singaporepools.com.sg/en/product/sr/Pages/toto_results.aspx?sppl=RHJhd051bWJlcj0zNjg5")
 
 
