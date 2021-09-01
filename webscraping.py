@@ -56,7 +56,7 @@ for i in range(1, totosize + 1):
                 finalLocDetails = finalLocDetails + locationdetails + "$"
             group1WLocList.append(finalLocDetails[:-1])
         else:
-            group1WLocList.append(driver.find_element_by_xpath(group1WLocListXPath).text)
+            group1WLocList.append(driver.find_element_by_xpath(group1WLocationXPath).text)
     else:
         group1WLocList.append("Nil")
     group1DrawDate = driver.find_element_by_xpath(group1DrawDateXPath)
